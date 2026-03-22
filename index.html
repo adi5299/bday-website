@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday, My Bestie! 🌸</title>
+  <meta name="description"
+    content="A special birthday celebration page for my dearest best friend. Wishing you all the love and joy!" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Quicksand:wght@400;500;600;700&family=Playfair+Display:ital,wght@1,400;1,600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Floating petals container -->
+  <div class="petals-container" id="petals"></div>
+  <!-- Confetti container -->
+  <div class="confetti-container" id="confetti"></div>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="hero">
+    <!-- Background Videos -->
+    <div class="hero-video-bg">
+      <video class="hero-bg-video active" autoplay muted loop playsinline>
+        <source src="1.mp4" type="video/mp4" />
+      </video>
+      <video class="hero-bg-video" autoplay muted loop playsinline>
+        <source src="2.mp4" type="video/mp4" />
+      </video>
+      <video class="hero-bg-video" autoplay muted loop playsinline>
+        <source src="3.mp4" type="video/mp4" />
+      </video>
+      <video class="hero-bg-video" autoplay muted loop playsinline>
+        <source src="4.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="hero-bg-overlay"></div>
+    <div class="stars-bg" id="stars"></div>
+    <div class="hero-content">
+      <div class="badge-wrap">
+        <span class="badge">🌸 A Special Day 🌸</span>
+      </div>
+      <h1 class="hero-title">
+        Happy Birthday<br>
+        <span class="bestie-name">My Bestie!</span>
+      </h1>
+      <p class="hero-subtitle">
+        Today the universe celebrates <em>you</em> — the most beautiful soul I know 💙
+      </p>
+      <div class="hero-image-wrap">
+        <img src="hero.png" alt="Beautiful floral bouquet of lilies and roses" class="hero-img" />
+        <div class="hero-img-glow"></div>
+      </div>
+      <div class="hero-btns">
+        <a href="#message" class="cta-btn">Read Your Letter 💌</a>
+        <a href="#collage" class="cta-btn cta-btn-outline">Photo Gallery 📸</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-dot"></div>
+    </div>
+  </section>
+
+  <!-- ===== MESSAGE SECTION ===== -->
+  <section class="message-section" id="message">
+    <div class="section-deco top-deco">🌷</div>
+    <div class="container">
+      <h2 class="section-title">A Letter Just For You</h2>
+      <div class="envelope-card">
+        <div class="envelope-top"></div>
+        <div class="letter-body">
+          <p class="letter-opening">My Dearest Bestie,</p>
+          <p>On this beautiful day, I want you to know how incredibly special you are to me. You light up every room you
+            walk into, and your laughter is my favourite music in the whole world. 🌸</p>
+          <p>Through every late-night talk, every shared secret, every talk big and small — you've been my anchor,
+            my sunshine, and my very best friend. I am so grateful the universe brought us together.</p>
+          <p>On your birthday, I wish you bouquets of lilies as pure as your heart, white roses as radiant as your
+            smile, and blue roses as rare and magical as you are. 🥀🌾</p>
+          <p class="letter-closing">Forever and always, your bestie. 💙</p>
+        </div>
+      </div>
+    </div>
+    <div class="section-deco bottom-deco">🌸</div>
+  </section>
+
+  <!-- ===== PHOTO COLLAGE ===== -->
+  <section class="collage-section" id="collage">
+    <div class="container">
+      <h2 class="section-title glitter-title">one and only 📸</h2>
+      <p class="section-subtitle">Every moment with you is a treasure I hold close 💜</p>
+
+      <div class="collage-grid">
+        <div class="collage-item collage-item--tall" data-caption="Best Friends Forever 💜">
+          <img src="8.jpeg" alt="Photo 8" />
+          <div class="collage-overlay"><span>Best Friends Forever 💜</span></div>
+        </div>
+        <div class="collage-item" data-caption="Adventures Together ✨">
+          <img src="2.jpeg" alt="Photo 2" />
+          <div class="collage-overlay"><span>cutie pie ✨</span></div>
+        </div>
+        <div class="collage-item" data-caption="Pure Joy 🌷">
+          <img src="3.jpeg" alt="Photo 3" />
+          <div class="collage-overlay"><span>BaBaaa 🌷</span></div>
+        </div>
+        <div class="collage-item collage-item--wide" data-caption="Making Memories 🌸">
+          <img src="4.jpeg" alt="Photo 4" />
+          <div class="collage-overlay"><span>pagluuu 🌸</span></div>
+        </div>
+        <div class="collage-item collage-item--tall" data-caption="Laughing Together 💛">
+          <img src="5.jpeg" alt="Photo 5" />
+          <div class="collage-overlay"><span>Bachaaa 💛</span></div>
+        </div>
+        <div class="collage-item" data-caption="So Much Love 💙">
+          <img src="6.jpeg" alt="Photo 6" />
+          <div class="collage-overlay"><span>lillyput 💙</span></div>
+        </div>
+        <div class="collage-item" data-caption="Unforgettable 🎉">
+          <img src="7.jpeg" alt="Photo 7" />
+          <div class="collage-overlay"><span>Unforgettable 🎉</span></div>
+        </div>
+        <div class="collage-item collage-item--wide" data-caption="Forever & Always ✨">
+          <img src="1.jpeg" alt="Photo 1" />
+          <div class="collage-overlay"><span>chikkudaa ✨</span></div>
+        </div>
+        <div class="collage-item" data-caption="My Favourite Person 💜">
+          <img src="9.jpeg" alt="Photo 9" />
+          <div class="collage-overlay"><span>My Favourite Person 💜</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LIGHTBOX (for photos) ===== -->
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <button class="lightbox-close" id="lightboxClose" onclick="closeLightbox()">✕</button>
+    <img src="" alt="Photo" id="lightboxImg" />
+  </div>
+
+  <!-- ===== WISHES SECTION ===== -->
+  <section class="wishes-section" id="wishes">
+    <div class="container">
+      <h2 class="section-title glitter-title">Birthday Wishes ✨</h2>
+      <p class="section-subtitle">With all my heart, I wish you…</p>
+      <div class="wishes-grid">
+        <div class="wish-card" style="--delay: 0s">
+          <div class="wish-icon">🌟</div>
+          <h3>Endless Joy</h3>
+          <p>May every day bring you laughter so contagious it spreads to everyone around you.</p>
+        </div>
+        <div class="wish-card" style="--delay: 0.15s">
+          <div class="wish-icon">💜</div>
+          <h3>True Love</h3>
+          <p>May you be surrounded by people who love and cherish you exactly as you deserve.</p>
+        </div>
+        <div class="wish-card" style="--delay: 0.3s">
+          <div class="wish-icon">🌸</div>
+          <h3>Beautiful Dreams</h3>
+          <p>May all your wildest dreams blossom into the most extraordinary realities.</p>
+        </div>
+        <div class="wish-card" style="--delay: 0.45s">
+          <div class="wish-icon">✨</div>
+          <h3>Magic Moments</h3>
+          <p>May this year be filled with magical moments that take your breath away.</p>
+        </div>
+        <div class="wish-card" style="--delay: 0.6s">
+          <div class="wish-icon">🌹</div>
+          <h3>Health & Grace</h3>
+          <p>May you bloom in health, radiate grace, and glow with happiness every single day.</p>
+        </div>
+        <div class="wish-card" style="--delay: 0.75s">
+          <div class="wish-icon">🎂</div>
+          <h3>Sweet Surprises</h3>
+          <p>May life shower you with sweet surprises and wonderful adventures all year long!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FLOWERS SECTION ===== -->
+  <section class="flowers-section" id="flowers">
+    <div class="container">
+      <h2 class="section-title">Your Favourite Flowers 🌸</h2>
+      <p class="section-subtitle">Picked just for you, with love</p>
+      <div class="flowers-grid">
+        <div class="flower-card">
+          <div class="flower-emoji-big">🌷</div>
+          <h3>White Lily</h3>
+          <p>A symbol of pure devotion and elegant beauty — just like you.</p>
+        </div>
+        <div class="flower-card highlight">
+          <div class="flower-emoji-big">🌹</div>
+          <h3>Blue Rose</h3>
+          <p>Rare, mysterious, and magical — because you are one of a kind.</p>
+        </div>
+        <div class="flower-card">
+          <div class="flower-emoji-big">🥀</div>
+          <h3>White Rose</h3>
+          <p>Representing innocence and pure friendship — our unbreakable bond.</p>
+        </div>
+      </div>
+      <div class="accents-img-wrap">
+        <img src="ChatGPT Image Jan 14, 2026, 01_15_08 PM.png" alt="ChatGPT photo" class="accents-img" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CAKE SECTION ===== -->
+  <section class="cake-section" id="cake">
+    <div class="container">
+      <h2 class="section-title">Make a Wish! 🎂</h2>
+      <p class="section-subtitle">Click the cake to blow out the candles 🕯️</p>
+      <div class="cake-wrap" id="cakeWrap" onclick="blowCandles()">
+        <div class="candles-row" id="candlesRow">
+          <div class="candle">
+            <div class="flame" id="f1"></div>
+          </div>
+          <div class="candle">
+            <div class="flame" id="f2"></div>
+          </div>
+          <div class="candle">
+            <div class="flame" id="f3"></div>
+          </div>
+        </div>
+        <div class="cake-emoji">🎂</div>
+        <div class="cake-body">
+          <div class="frosting"></div>
+          <div class="cake-tier-1">
+            <div class="tier-dots"></div>
+          </div>
+          <div class="cake-tier-2">
+            <div class="tier-pearls"></div>
+          </div>
+          <div class="cake-base">
+            <span class="cake-base-text">Happy Birthday!</span>
+          </div>
+        </div>
+        <div class="wish-text" id="wishText">🎉 Happy Birthday! All your wishes come true! 🎉</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-flowers">🌸 🌷 💙 🌷 🌸</div>
+    <p class="footer-msg">Made with love, just for you 💜</p>
+    <p class="footer-note">Have the most magical birthday ever! 🎊✨</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
